@@ -41,7 +41,7 @@ export const publications: Publication[] = [
   {
     title: 'Isotone Chain Study of Antiprotonic-Atom Spectroscopy and Strong Spin–Orbit Splittings',
     authors: 'Kenta Yoshimura, Shunsuke Yasunaga, Daisuke Jido, and Hiroyuki Fujioka',
-    year: 2026,
+    year: 2025,
     venue: 'Progress of Theoretical and Experimental Physics 2026, 073D01',
     url: 'https://arxiv.org/abs/2511.07169',
     area: 'Nuclear theory',
@@ -58,7 +58,7 @@ export const publications: Publication[] = [
   {
     title: 'Interrelation between Antiprotonic-Ca Atom Spectra and Nuclear Density Profiles',
     authors: 'Kenta Yoshimura, Shunsuke Yasunaga, Daisuke Jido, Junko Yamagata-Sekihara, and Satoru Hirenzaki',
-    year: 2025,
+    year: 2024,
     venue: 'Progress of Theoretical and Experimental Physics 2025, 113D02',
     url: 'https://arxiv.org/abs/2408.14760',
     doi: 'https://doi.org/10.1093/ptep/ptaf140',
@@ -67,7 +67,7 @@ export const publications: Publication[] = [
   {
     title: 'K⁻d → πΛN reaction with in-flight kaons for studying the ΛN interaction',
     authors: 'Shunsuke Yasunaga, Daisuke Jido, and Takatsugu Ishikawa',
-    year: 2025,
+    year: 2024,
     venue: 'Physical Review C 112, 015208',
     url: 'https://arxiv.org/abs/2405.15534',
     doi: 'https://doi.org/10.1103/8d48-w2dr',
