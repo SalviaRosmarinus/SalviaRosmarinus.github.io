@@ -35,7 +35,7 @@ export const publications: Publication[] = [
     year: 2026,
     venue: 'arXiv:2603.16329',
     url: 'https://arxiv.org/abs/2603.16329',
-    status: 'Preprint',
+    status: 'Proceedings',
     area: 'Lattice QCD',
   },
   {
@@ -44,6 +44,7 @@ export const publications: Publication[] = [
     year: 2025,
     venue: 'Progress of Theoretical and Experimental Physics 2026, 073D01',
     url: 'https://arxiv.org/abs/2511.07169',
+    doi: 'https://doi.org/10.1093/ptep/ptag084',
     area: 'Nuclear theory',
   },
   {
