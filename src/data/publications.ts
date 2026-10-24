@@ -9,6 +9,7 @@ export type Publication = {
   area: 'Hadron physics' | 'Lattice QCD' | 'Nuclear theory';
 };
 
+// Newest first by initial arXiv posting, regardless of journal publication year.
 export const publications: Publication[] = [
   {
     title: 'The ΣN threshold structure in the K⁻d → π⁻Λp reaction',
@@ -17,6 +18,15 @@ export const publications: Publication[] = [
     venue: 'arXiv:2610.15928',
     url: 'https://arxiv.org/abs/2610.15928',
     status: 'Preprint',
+    area: 'Hadron physics',
+  },
+  {
+    title: 'Hyperon–nucleon interaction through the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga and Daisuke Jido',
+    year: 2026,
+    venue: 'arXiv:2605.00727',
+    url: 'https://arxiv.org/abs/2605.00727',
+    status: 'Proceedings',
     area: 'Hadron physics',
   },
   {
@@ -29,15 +39,6 @@ export const publications: Publication[] = [
     area: 'Lattice QCD',
   },
   {
-    title: 'Hyperon–nucleon interaction through the K⁻d → πΛN reaction',
-    authors: 'Shunsuke Yasunaga and Daisuke Jido',
-    year: 2026,
-    venue: 'arXiv:2605.00727',
-    url: 'https://arxiv.org/abs/2605.00727',
-    status: 'Proceedings',
-    area: 'Hadron physics',
-  },
-  {
     title: 'Isotone Chain Study of Antiprotonic-Atom Spectroscopy and Strong Spin–Orbit Splittings',
     authors: 'Kenta Yoshimura, Shunsuke Yasunaga, Daisuke Jido, and Hiroyuki Fujioka',
     year: 2026,
@@ -46,12 +47,12 @@ export const publications: Publication[] = [
     area: 'Nuclear theory',
   },
   {
-    title: 'K⁻d → πΛN reaction with in-flight kaons for studying the ΛN interaction',
-    authors: 'Shunsuke Yasunaga, Daisuke Jido, and Takatsugu Ishikawa',
+    title: 'Theoretical study of the ΣN cusp in the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga and Daisuke Jido',
     year: 2025,
-    venue: 'Physical Review C 112, 015208',
-    url: 'https://arxiv.org/abs/2405.15534',
-    doi: 'https://doi.org/10.1103/8d48-w2dr',
+    venue: 'arXiv:2501.14227',
+    url: 'https://arxiv.org/abs/2501.14227',
+    status: 'Proceedings',
     area: 'Hadron physics',
   },
   {
@@ -64,12 +65,12 @@ export const publications: Publication[] = [
     area: 'Nuclear theory',
   },
   {
-    title: 'Theoretical study of the ΣN cusp in the K⁻d → πΛN reaction',
-    authors: 'Shunsuke Yasunaga and Daisuke Jido',
+    title: 'K⁻d → πΛN reaction with in-flight kaons for studying the ΛN interaction',
+    authors: 'Shunsuke Yasunaga, Daisuke Jido, and Takatsugu Ishikawa',
     year: 2025,
-    venue: 'arXiv:2501.14227',
-    url: 'https://arxiv.org/abs/2501.14227',
-    status: 'Proceedings',
+    venue: 'Physical Review C 112, 015208',
+    url: 'https://arxiv.org/abs/2405.15534',
+    doi: 'https://doi.org/10.1103/8d48-w2dr',
     area: 'Hadron physics',
   },
 ];
