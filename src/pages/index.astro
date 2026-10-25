@@ -24,7 +24,7 @@ import { publications } from '../data/publications';
         </div>
       </div>
 
-      <section class="papers-panel" id="papers"><div class="papers-head"><div><span class="overline">INDEX / 02</span><h2>Papers &amp; preprints</h2></div><p>By first posting on arXiv, newest first. Titles link to the papers.</p></div><div class="paper-list">{publications.map((paper) => <article class="paper"><span class="year">{paper.year}</span><div><h3><a href={paper.url}>{paper.title} <span aria-hidden="true">↗</span></a></h3><p>{paper.authors}</p><small><a class="venue-link" href={paper.doi ?? paper.url}>{paper.venue}</a>{paper.status ? ` · ${paper.status}` : ''}</small></div></article>)}</div></section>
+      <section class="papers-panel" id="papers"><div class="papers-head"><div><span class="overline">INDEX / 02</span><h2>Papers &amp; preprints</h2></div><p>By first posting on arXiv, newest first.</p></div><div class="paper-list">{publications.map((paper) => <article class="paper"><span class="year">{paper.year}</span><div><h3>{paper.title}</h3><p>{paper.authors}</p><small><a class="venue-link" href={paper.url}>arXiv:{paper.url.split('/').pop()}</a> · {paper.doi ? <a class="venue-link" href={paper.doi}>{paper.venue}</a> : <a class="venue-link" href={paper.url.replace('/abs/', '/pdf/')}>Paper (PDF)</a>}{paper.status ? ` · ${paper.status}` : ''}</small></div></article>)}</div></section>
     </div>
   </main>
   <footer><div class="shell"><span>Shunsuke Yasunaga · {new Date().getFullYear()}</span><a href="#top">Back to top ↑</a></div></footer>
