@@ -12,6 +12,15 @@ export type Talk = {
 // Oral presentations, newest first. Conference names link to their event pages where available.
 export const talks: Talk[] = [
   {
+    title: 'Reducing the residual mass of domain-wall fermions using machine learning',
+    authors: 'Shunsuke Yasunaga',
+    event: 'Frontiers of Lattice Fermions',
+    eventUrl: 'https://indico.yukawa.kyoto-u.ac.jp/event/78/contributions/1979/',
+    location: 'YITP, Kyoto University, Japan',
+    date: '2026-07',
+    month: 'July 2026',
+  },
+  {
     title: 'Magnetic-field effects on the equation of state in relativistic mean-field models',
     authors: 'Shunsuke Yasunaga',
     event: '2026 Spring Meeting of the Korean Physical Society',
