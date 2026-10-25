@@ -1,0 +1,142 @@
+export type Talk = {
+  title: string;
+  authors: string;
+  event: string;
+  eventUrl?: string;
+  location: string;
+  date: string;
+  month: string;
+  session?: string;
+};
+
+// Oral presentations, newest first. Conference names link to their event pages where available.
+export const talks: Talk[] = [
+  {
+    title: 'Magnetic-field effects on the equation of state in relativistic mean-field models',
+    authors: 'Shunsuke Yasunaga',
+    event: '2026 Spring Meeting of the Korean Physical Society',
+    eventUrl: 'https://indico.ibs.re.kr/event/1237/',
+    location: 'Daejeon Convention Center, South Korea',
+    date: '2026-04',
+    month: 'April 2026',
+  },
+  {
+    title: 'Hyperon–nucleon interaction through the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga and Daisuke Jido',
+    event: 'Baryons 2025',
+    eventUrl: 'https://indico.cern.ch/event/1339154/',
+    location: 'International Convention Center Jeju, South Korea',
+    date: '2025-11',
+    month: 'November 2025',
+  },
+  {
+    title: 'Parameter Optimization of Domain-Wall Fermion using Machine Learning',
+    authors: 'Shunsuke Yasunaga, Kenta Yoshimura, Akio Tomiya, and Yuki Nagai',
+    event: 'Lattice 2025',
+    eventUrl: 'https://www.tifr.res.in/lattice2025/index.html',
+    location: 'TIFR, Mumbai, India',
+    date: '2025-11',
+    month: 'November 2025',
+  },
+  {
+    title: 'Hyperon–nucleon final-state interaction in the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga and Daisuke Jido',
+    event: '80th Annual Meeting of the Physical Society of Japan',
+    eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2025au/data2/html/programrk.html',
+    location: 'Hiroshima University, Higashi-Hiroshima, Japan',
+    date: '2025-09',
+    month: 'September 2025',
+  },
+  {
+    title: 'Spectra near the ΣN threshold of the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga',
+    event: 'RARiS Workshop on Hadron Spectroscopy 2024',
+    eventUrl: 'https://indico.lns.tohoku.ac.jp/event/281/',
+    location: 'Tohoku University, Sendai, Japan',
+    date: '2024-11',
+    month: 'November 2024',
+  },
+  {
+    title: 'ΣN cusp structure in the ΛN spectrum of the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga and Daisuke Jido',
+    event: '79th Annual Meeting of the Physical Society of Japan',
+    eventUrl: 'https://www.jps.or.jp/activities/meetings/applications/2024A_bosyu.php',
+    location: 'Hokkaido University, Sapporo, Japan',
+    date: '2024-09',
+    month: 'September 2024',
+    session: '16pC212-9',
+  },
+  {
+    title: 'Theoretical study of the ΣN cusp in the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga',
+    event: 'J-PARC Hadron 2024',
+    eventUrl: 'https://kds.kek.jp/event/49981/',
+    location: 'Tokai, Japan',
+    date: '2024-07',
+    month: 'July 2024',
+  },
+  {
+    title: 'Theoretical study of the ΣN cusp in the K⁻d → πΛN reaction',
+    authors: 'Shunsuke Yasunaga',
+    event: '10th International Conference on Quarks and Nuclear Physics (QNP 2024)',
+    eventUrl: 'https://indico.icc.ub.edu/event/180/',
+    location: 'University of Barcelona, Spain',
+    date: '2024-07',
+    month: 'July 2024',
+  },
+  {
+    title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
+    authors: 'Shunsuke Yasunaga, Daisuke Jido, Takatsugu Ishikawa, and Yutaro Iizawa',
+    event: '2023 Fall Meeting of the APS Division of Nuclear Physics and the Physical Society of Japan',
+    eventUrl: 'https://www.aps.org/events/2023/6th-joint-meeting-nuclear-physics',
+    location: 'Waikoloa, Hawaii, USA',
+    date: '2023-11',
+    month: 'November 2023',
+  },
+  {
+    title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
+    authors: 'Shunsuke Yasunaga',
+    event: 'Nagoya Workshop on Exotic Hadrons 2023',
+    eventUrl: 'https://indico.rcnp.osaka-u.ac.jp/event/2121/',
+    location: 'Nagoya University, Japan',
+    date: '2023-11',
+    month: 'November 2023',
+  },
+  {
+    title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
+    authors: 'Shunsuke Yasunaga',
+    event: 'ELPH Workshop C035 on Hadron Spectroscopy',
+    eventUrl: 'https://indico.lns.tohoku.ac.jp/event/160/',
+    location: 'Tohoku University ELPH, Sendai, Japan',
+    date: '2023-11',
+    month: 'November 2023',
+  },
+  {
+    title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
+    authors: 'Shunsuke Yasunaga',
+    event: 'J-PARC Hadron 2023 International Workshop',
+    eventUrl: 'https://kds.kek.jp/event/46237/',
+    location: 'J-PARC Tokai campus, Japan',
+    date: '2023-09',
+    month: 'September 2023',
+  },
+  {
+    title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
+    authors: 'Shunsuke Yasunaga',
+    event: 'J-PARC Hadron Workshop 2023',
+    eventUrl: 'https://kds.kek.jp/event/44171/',
+    location: 'KEK Tokai campus, Japan',
+    date: '2023-03',
+    month: 'March 2023',
+  },
+  {
+    title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
+    authors: 'Shunsuke Yasunaga, Daisuke Jido, Takatsugu Ishikawa, and Yutaro Iizawa',
+    event: '2023 Spring Meeting of the Physical Society of Japan',
+    eventUrl: 'https://doi.org/10.11316/jpsgaiyo.78.1.0_301',
+    location: 'Online',
+    date: '2023-03',
+    month: 'March 2023',
+    session: '22pU1-7',
+  },
+];
