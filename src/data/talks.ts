@@ -72,8 +72,8 @@ export const talks: Talk[] = [
     event: '日本物理学会第80回年次大会（2025年）',
     eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2025au/data2/html/programrk.html',
     location: 'Hiroshima University, Higashi-Hiroshima, Japan',
-    date: '2025-09',
-    month: 'September 16–19, 2025',
+    date: '2025-09-18',
+    month: 'September 18, 2025',
   },
   {
     title: 'Spectra near the ΣN and K̄N thresholds of the K⁻d → π⁻ΛN reaction',
