@@ -12,9 +12,9 @@ export type Talk = {
 // Oral presentations, newest first. Conference names link to their event pages where available.
 export const talks: Talk[] = [
   {
-    title: 'Optimization of domain-wall fermion coefficients using machine learning',
+    title: '機械学習を用いたドメインウォールフェルミオンの係数最適化',
     authors: 'Shunsuke Yasunaga, Kenta Yoshimura, Akio Tomiya, and Yuki Nagai',
-    event: '81st Annual Meeting of the Physical Society of Japan',
+    event: '日本物理学会第81回年次大会（2026年）',
     eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2026au/program/date/programsr.html',
     location: 'University of Tokyo, Komaba, Japan',
     date: '2026-09-16',
@@ -67,9 +67,9 @@ export const talks: Talk[] = [
     month: 'November 2025',
   },
   {
-    title: 'Hyperon–nucleon final-state interaction in the K⁻d → πΛN reaction',
+    title: 'K⁻d → πΛN反応におけるハイペロン–核子終状態相互作用',
     authors: 'Shunsuke Yasunaga and Daisuke Jido',
-    event: '80th Annual Meeting of the Physical Society of Japan',
+    event: '日本物理学会第80回年次大会（2025年）',
     eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2025au/data2/html/programrk.html',
     location: 'Hiroshima University, Higashi-Hiroshima, Japan',
     date: '2025-09',
@@ -78,16 +78,16 @@ export const talks: Talk[] = [
   {
     title: 'Spectra near the ΣN and K̄N thresholds of the K⁻d → π⁻ΛN reaction',
     authors: 'Shunsuke Yasunaga',
-    event: 'RARiS Workshop on Hadron Spectroscopy 2024',
+    event: 'RARiS研究会「実験、反応・構造計算、格子QCDで解き明かすハドロン分光 2024」',
     eventUrl: 'https://indico.lns.tohoku.ac.jp/event/281/contributions/2389/',
     location: 'Tohoku University, Sendai, Japan',
     date: '2024-11',
     month: 'November 2024',
   },
   {
-    title: 'ΣN cusp structure in the ΛN spectrum of the K⁻d → πΛN reaction',
+    title: 'K⁻d反応のΛNスペクトルにおけるΣNカスプ構造',
     authors: 'Shunsuke Yasunaga and Daisuke Jido',
-    event: '79th Annual Meeting of the Physical Society of Japan',
+    event: '日本物理学会第79回年次大会（2024年）',
     eventUrl: 'https://www.jstage.jst.go.jp/article/jpsgaiyo/79.2/0/79.2_377/_article/-char/en/',
     location: 'Hokkaido University, Sapporo, Japan',
     date: '2024-09',
@@ -133,7 +133,7 @@ export const talks: Talk[] = [
   {
     title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
     authors: 'Shunsuke Yasunaga',
-    event: 'ELPH Workshop C035 on Hadron Spectroscopy',
+    event: 'ELPH研究会C035「実験、反応・構造計算、格子QCDで解き明かすハドロン分光」',
     eventUrl: 'https://indico.lns.tohoku.ac.jp/event/160/contributions/1248/',
     location: 'Tohoku University ELPH, Sendai, Japan',
     date: '2023-11',
@@ -151,7 +151,7 @@ export const talks: Talk[] = [
   {
     title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
     authors: 'Shunsuke Yasunaga',
-    event: 'J-PARC Hadron Workshop 2023',
+    event: 'J-PARCハドロン研究会2023',
     eventUrl: 'https://kds.kek.jp/event/44171/',
     location: 'KEK Tokai campus, Japan',
     date: '2023-03',
@@ -160,7 +160,7 @@ export const talks: Talk[] = [
   {
     title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
     authors: 'Shunsuke Yasunaga, Daisuke Jido, Takatsugu Ishikawa, and Yutaro Iizawa',
-    event: '2023 Spring Meeting of the Physical Society of Japan',
+    event: '日本物理学会2023年春季大会',
     eventUrl: 'https://doi.org/10.11316/jpsgaiyo.78.1.0_301',
     location: 'Online',
     date: '2023-03',
