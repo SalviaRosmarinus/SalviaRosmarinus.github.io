@@ -18,7 +18,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2026au/program/date/programsr.html',
     location: 'University of Tokyo, Komaba, Japan',
     date: '2026-09-16',
-    month: 'September 2026',
+    month: 'September 16, 2026',
     session: '16pG722-13',
   },
   {
@@ -28,7 +28,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://indico.global/event/16565/contributions/161790/',
     location: 'University of Maryland, College Park, USA',
     date: '2026-07-27',
-    month: 'July 2026',
+    month: 'July 27, 2026',
   },
   {
     title: 'Reducing the residual mass of domain-wall fermions using machine learning',
@@ -36,8 +36,8 @@ export const talks: Talk[] = [
     event: 'Frontiers of Lattice Fermions',
     eventUrl: 'https://indico.yukawa.kyoto-u.ac.jp/event/78/contributions/1979/',
     location: 'YITP, Kyoto University, Japan',
-    date: '2026-07',
-    month: 'July 2026',
+    date: '2026-07-02',
+    month: 'July 2, 2026',
   },
   {
     title: 'Magnetic-field effects on the equation of state in relativistic mean-field models',
@@ -46,7 +46,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://indico.ibs.re.kr/event/1237/',
     location: 'Daejeon Convention Center, South Korea',
     date: '2026-04',
-    month: 'April 2026',
+    month: 'April 22–24, 2026',
   },
   {
     title: 'Hyperon–nucleon interaction through the K⁻d → πΛN reaction',
@@ -54,8 +54,8 @@ export const talks: Talk[] = [
     event: 'Baryons 2025',
     eventUrl: 'https://indico.cern.ch/event/1339154/contributions/6688863/',
     location: 'International Convention Center Jeju, South Korea',
-    date: '2025-11',
-    month: 'November 2025',
+    date: '2025-11-13',
+    month: 'November 13, 2025',
   },
   {
     title: 'Parameter Optimization of Domain-Wall Fermion using Machine Learning',
@@ -63,8 +63,8 @@ export const talks: Talk[] = [
     event: 'Lattice 2025',
     eventUrl: 'https://indico.global/event/14504/contributions/137859/',
     location: 'TIFR, Mumbai, India',
-    date: '2025-11',
-    month: 'November 2025',
+    date: '2025-11-04',
+    month: 'November 4, 2025',
   },
   {
     title: 'K⁻d → πΛN反応におけるハイペロン–核子終状態相互作用',
@@ -73,7 +73,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2025au/data2/html/programrk.html',
     location: 'Hiroshima University, Higashi-Hiroshima, Japan',
     date: '2025-09',
-    month: 'September 2025',
+    month: 'September 16–19, 2025',
   },
   {
     title: 'Spectra near the ΣN and K̄N thresholds of the K⁻d → π⁻ΛN reaction',
@@ -81,8 +81,8 @@ export const talks: Talk[] = [
     event: 'RARiS研究会「実験、反応・構造計算、格子QCDで解き明かすハドロン分光 2024」',
     eventUrl: 'https://indico.lns.tohoku.ac.jp/event/281/contributions/2389/',
     location: 'Tohoku University, Sendai, Japan',
-    date: '2024-11',
-    month: 'November 2024',
+    date: '2024-11-20',
+    month: 'November 20, 2024',
   },
   {
     title: 'K⁻d反応のΛNスペクトルにおけるΣNカスプ構造',
@@ -90,8 +90,8 @@ export const talks: Talk[] = [
     event: '日本物理学会第79回年次大会（2024年）',
     eventUrl: 'https://www.jstage.jst.go.jp/article/jpsgaiyo/79.2/0/79.2_377/_article/-char/en/',
     location: 'Hokkaido University, Sapporo, Japan',
-    date: '2024-09',
-    month: 'September 2024',
+    date: '2024-09-16',
+    month: 'September 16, 2024',
     session: '16pC212-9',
   },
   {
@@ -101,7 +101,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://kds.kek.jp/event/49981/',
     location: 'Tokai, Japan',
     date: '2024-07',
-    month: 'July 2024',
+    month: 'July 23–25, 2024',
   },
   {
     title: 'Theoretical study of the ΣN cusp in the K⁻d → πΛN reaction',
@@ -109,8 +109,8 @@ export const talks: Talk[] = [
     event: '10th International Conference on Quarks and Nuclear Physics (QNP 2024)',
     eventUrl: 'https://indico.icc.ub.edu/event/180/contributions/2787/',
     location: 'University of Barcelona, Spain',
-    date: '2024-07',
-    month: 'July 2024',
+    date: '2024-07-09',
+    month: 'July 9, 2024',
   },
   {
     title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
@@ -119,7 +119,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://www.aps.org/events/2023/6th-joint-meeting-nuclear-physics',
     location: 'Waikoloa, Hawaii, USA',
     date: '2023-11',
-    month: 'November 2023',
+    month: 'November 26 – December 1, 2023',
   },
   {
     title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
@@ -128,7 +128,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://indico.rcnp.osaka-u.ac.jp/event/2121/',
     location: 'Nagoya University, Japan',
     date: '2023-11',
-    month: 'November 2023',
+    month: 'November 14–17, 2023',
   },
   {
     title: 'K⁻d reaction with in-flight kaons for studying the ΛN interaction',
@@ -136,8 +136,8 @@ export const talks: Talk[] = [
     event: 'ELPH研究会C035「実験、反応・構造計算、格子QCDで解き明かすハドロン分光」',
     eventUrl: 'https://indico.lns.tohoku.ac.jp/event/160/contributions/1248/',
     location: 'Tohoku University ELPH, Sendai, Japan',
-    date: '2023-11',
-    month: 'November 2023',
+    date: '2023-11-08',
+    month: 'November 8, 2023',
   },
   {
     title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
@@ -146,7 +146,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://kds.kek.jp/event/46237/',
     location: 'J-PARC Tokai campus, Japan',
     date: '2023-09',
-    month: 'September 2023',
+    month: 'September 12–15, 2023',
   },
   {
     title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
@@ -155,7 +155,7 @@ export const talks: Talk[] = [
     eventUrl: 'https://kds.kek.jp/event/44171/',
     location: 'KEK Tokai campus, Japan',
     date: '2023-03',
-    month: 'March 2023',
+    month: 'March 27–29, 2023',
   },
   {
     title: 'K⁻d reaction for studying the ΛN interaction with in-flight kaons',
@@ -163,8 +163,8 @@ export const talks: Talk[] = [
     event: '日本物理学会2023年春季大会',
     eventUrl: 'https://doi.org/10.11316/jpsgaiyo.78.1.0_301',
     location: 'Online',
-    date: '2023-03',
-    month: 'March 2023',
+    date: '2023-03-22',
+    month: 'March 22, 2023',
     session: '22pU1-7',
   },
 ];
