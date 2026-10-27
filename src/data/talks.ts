@@ -99,7 +99,7 @@ export const talks: Talk[] = [
     authors: 'Shunsuke Yasunaga',
     event: 'J-PARC Hadron 2024',
     eventUrl: 'https://kds.kek.jp/event/49981/',
-    location: 'AYA'S LABORATORY, Ibaraki, Japan',
+    location: "AYA’S LABORATORY, Ibaraki, Japan",
     date: '2024-07',
     month: 'July 23–25, 2024',
   },
