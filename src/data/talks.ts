@@ -12,6 +12,25 @@ export type Talk = {
 // Oral presentations, newest first. Conference names link to their event pages where available.
 export const talks: Talk[] = [
   {
+    title: 'Optimization of domain-wall fermion coefficients using machine learning',
+    authors: 'Shunsuke Yasunaga, Kenta Yoshimura, Akio Tomiya, and Yuki Nagai',
+    event: '81st Annual Meeting of the Physical Society of Japan',
+    eventUrl: 'https://onsite.gakkai-web.net/jps/jps_search/2026au/program/date/programsr.html',
+    location: 'University of Tokyo, Komaba, Japan',
+    date: '2026-09-16',
+    month: 'September 2026',
+    session: '16pG722-13',
+  },
+  {
+    title: 'Reducing the residual mass of domain-wall fermions using machine learning',
+    authors: 'Shunsuke Yasunaga',
+    event: 'Lattice 2026',
+    eventUrl: 'https://indico.global/event/16565/contributions/161790/',
+    location: 'University of Maryland, College Park, USA',
+    date: '2026-07-27',
+    month: 'July 2026',
+  },
+  {
     title: 'Reducing the residual mass of domain-wall fermions using machine learning',
     authors: 'Shunsuke Yasunaga, Kenta Yoshimura, Akio Tomiya, and Yuki Nagai',
     event: 'Frontiers of Lattice Fermions',
