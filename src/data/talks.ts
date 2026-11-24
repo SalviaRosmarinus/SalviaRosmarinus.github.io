@@ -12,6 +12,15 @@ export type Talk = {
 // Oral presentations, newest first. Conference names link to their event pages where available.
 export const talks: Talk[] = [
   {
+    title: 'ΣN threshold structure in the K⁻d → π⁻Λp reaction',
+    authors: 'Shunsuke Yasunaga',
+    event: 'RARiS研究会C052「実験・有効理論・格子シミュレーションで探るハドロンダイナミクス 2026」',
+    eventUrl: 'https://indico.lns.tohoku.ac.jp/event/544/contributions/3626/',
+    location: '東北大学RARiS 三神峯事業所, 日本',
+    date: '2026-11-17',
+    month: 'November 17–18, 2026',
+  },
+  {
     title: '機械学習を用いたドメインウォールフェルミオンの係数最適化',
     authors: 'Shunsuke Yasunaga, Kenta Yoshimura, Akio Tomiya, and Yuki Nagai',
     event: '日本物理学会第81回年次大会（2026年）',
